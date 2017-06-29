@@ -2,7 +2,7 @@
 
 namespace XamarinFInputValidation.Behaviors
 {
-	public class NumberValidationBehavior : Behavior<Entry>
+	public class NumberValidatorBehavior : Behavior<Entry>
 	{
 		protected override void OnAttachedTo(Entry entry)
 		{

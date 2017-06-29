@@ -2,9 +2,9 @@
 
 namespace XamarinFInputValidation.Behaviors
 {
-	public class MaxLengthValidatorBehavior : Behavior<Entry>
+	public class MaxLengthValidator : Behavior<Entry>
 	{
-		public static readonly BindableProperty MaxLengthProperty = BindableProperty.Create("MaxLength", typeof(int), typeof(MaxLengthValidatorBehavior), 0);
+		public static readonly BindableProperty MaxLengthProperty = BindableProperty.Create("MaxLength", typeof(int), typeof(MaxLengthValidator), 0);
 
 		public int MaxLength
 		{
