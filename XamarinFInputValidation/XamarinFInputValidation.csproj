@@ -38,6 +38,10 @@
     <EmbeddedResource Include="InputValidation02.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images\error.png" />
+    <EmbeddedResource Include="Images\star_outline.png" />
+    <EmbeddedResource Include="Images\star_selected.png" />
+    <EmbeddedResource Include="Images\success.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -79,10 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Images\error.png" />
-    <None Include="Images\star_outline.png" />
-    <None Include="Images\star_selected.png" />
-    <None Include="Images\success.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behaviors\" />
