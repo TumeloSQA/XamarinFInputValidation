@@ -32,6 +32,9 @@
     <EmbeddedResource Include="InputValidation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -46,6 +49,9 @@
     <Compile Include="Behaviors\PasswordValidationBehavior.cs" />
     <Compile Include="InputValidation.xaml.cs">
       <DependentUpon>InputValidation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyPage.xaml.cs">
+      <DependentUpon>MyPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

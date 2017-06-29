@@ -8,7 +8,7 @@ namespace XamarinFInputValidation
         {
             InitializeComponent();
 
-            MainPage = new InputValidation();
+            MainPage = new MyPage();
         }
 
         protected override void OnStart()

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XamarinFInputValidation.MyPage" Padding="20,10">
+    
+<Grid RowSpacing="5" Padding="25">
+        
+ <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+             <ColumnDefinition Width="Auto"/>
+             <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+       <Label Text="Registration Details" VerticalOptions="Center" HorizontalOptions="Center"/>
+       <Label Text="Flight Name" Grid.Row="1" Grid.Column="0"/>
+        <Entry Placeholder="Enter Name" Grid.Row="2" Grid.Column="0"/>
+        
+        <Label Text="Reverside" Grid.Row="1" Grid.Column="1"/>
+        <Entry Placeholder="Enter Name" Grid.Row="2" Grid.Column="1"/>
+        
+        <Label Text="ABSA" Grid.Row="1" Grid.Column="2"/>
+        <Entry Placeholder="Enter Name" Grid.Row="2" Grid.Column="2"/>
+    </Grid>
+    
+</ContentPage>
