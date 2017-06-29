@@ -29,16 +29,24 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="XamarinFInputValidationPage.xaml" />
+    <EmbeddedResource Include="InputValidation.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XamarinFInputValidationPage.xaml.cs">
-      <DependentUpon>XamarinFInputValidationPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Behaviors\CompareValidationBehavior.cs" />
+    <Compile Include="Behaviors\DateValidationBehavior.cs" />
+    <Compile Include="Behaviors\EmailValidatorBehavior.cs" />
+    <Compile Include="Behaviors\MaxLengthValidatorBehavior.cs" />
+    <Compile Include="Behaviors\NumberValidationBehavior.cs" />
+    <Compile Include="Behaviors\PasswordValidationBehavior.cs" />
+    <Compile Include="InputValidation.xaml.cs">
+      <DependentUpon>InputValidation.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
